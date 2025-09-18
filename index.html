@@ -1,6 +1,63 @@
-<!DOCTYPE>
-<html>
-  <body>
-    <h1> my first online website </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" align="center">
+        <img src="your-profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | [Your Profession]</p>
+        <p>Brief bio about yourself. What you do, your interests, or a quote you like.</p>
+
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="mailto:your@email.com">Email</a>
+        </div>
+    </div>
+</body>
 </html>
